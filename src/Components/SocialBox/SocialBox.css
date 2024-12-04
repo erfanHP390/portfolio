@@ -1,0 +1,46 @@
+.social-btn {
+    display: flex;
+    height: 3rem;
+    width: 3rem;
+    margin-left: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+    background-color: rgb(243, 246, 246);
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+    transition-duration: 300ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.dark .social-btn {
+    background-color: rgb(33, 36, 37);
+}
+
+.social-btn:hover {
+    background-color: #fa525294;
+}
+
+.github {
+    color: #0b0f15;
+    font-size: 2rem;
+}
+
+.dark .github {
+    color: #f7f7f7;
+}
+
+.instagram {
+    color: #ef4d00;
+    font-size: 2rem;
+}
+
+.telegram {
+    color: #27A6E7;
+    font-size: 1.8rem;
+}
+
+.linkedin {
+    color: #0A66C2;
+    font-size: 1.8rem;
+}
+
