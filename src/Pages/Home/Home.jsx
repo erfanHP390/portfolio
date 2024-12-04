@@ -22,10 +22,10 @@ export default function Home() {
             </h3>
             <p className="subtitle-profile">برنامه نویس فرانت اند</p>
             <div className="social-profile">
-              <SocialBox href={""}  icon={<FaGithub className='github' />} />
-              <SocialBox href={""}  icon={<RiInstagramFill className='instagram' />} />
-              <SocialBox href={""}  icon={<FaTelegramPlane className='telegram' />} />
-              <SocialBox href={""}  icon={<BsLinkedin className='linkedin' />} />
+              <SocialBox href={"https://github.com/erfanHP390"}  icon={<FaGithub className='github' />} />
+              <SocialBox href={"https://instagram.com/eh_programmer_23"}  icon={<RiInstagramFill className='instagram' />} />
+              <SocialBox href={"https://t.me/ErfanH_programmer_390"}  icon={<FaTelegramPlane className='telegram' />} />
+              <SocialBox href={"https://www.linkedin.com/in/erfan-hosseini-480b15325"}  icon={<BsLinkedin className='linkedin' />} />
             </div>
             <a href="" className="download-btn">
               <img src="./images/download.png" alt="" className='img-download' />
