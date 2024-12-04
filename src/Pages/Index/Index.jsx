@@ -1,15 +1,13 @@
 import React from 'react'
-import "./Index.css"
-import { Outlet } from 'react-router-dom'
+import './Index.css'
 import Header from '../../Components/Header/Header'
 
-export default function Index() {
+export default function Index () {
   return (
     <div className='bg-homeBg'>
-      <div className="z-50">
-        <div className="container">
-      <Header />
-      {<Outlet />}
+      <div className='z-50'>
+        <div className='container'>
+          <Header />
         </div>
       </div>
     </div>
