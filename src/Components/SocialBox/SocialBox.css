@@ -9,6 +9,7 @@
     background-color: rgb(243, 246, 246);
     transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
     transition-duration: 300ms;
+    transition: all 0.5s ease;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
