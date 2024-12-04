@@ -26,9 +26,11 @@ export default function Home() {
               <SocialBox href={""}  icon={<RiInstagramFill className='instagram' />} />
               <SocialBox href={""}  icon={<FaTelegramPlane className='telegram' />} />
               <SocialBox href={""}  icon={<BsLinkedin className='linkedin' />} />
-
             </div>
-            
+            <a href="" className="download-btn">
+              <img src="./images/download.png" alt="" className='img-download' />
+              دانلود رزومه
+            </a>
           </div>
         </div>
       </div>
