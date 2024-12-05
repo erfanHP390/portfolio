@@ -1,0 +1,31 @@
+.hard-skill {
+    margin-bottom: 1.75rem;
+}
+
+.hard-skill-title {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+}
+
+.hard-skill-title-text {
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgb(166, 166, 166);
+}
+
+.percent {
+    padding-right: 1.25rem;
+}
+
+
+
+
+
+
+
+
+
+
+
