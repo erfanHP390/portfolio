@@ -1,0 +1,38 @@
+.about-works-box {
+    display: flex;
+    gap: 1rem;
+    border-radius: 0.75rem;
+    border-color: rgb(33, 36, 37);
+    padding: 1.5rem;
+}
+
+.purple {
+    background: rgb(252, 244, 255);
+}
+
+.about-works-box-icon {
+    display: block;
+    height: 2.5rem;
+    width: 2.5rem;
+    object-fit: contain;
+}
+
+.about-works-box-info {
+    word-break: break-all;
+}
+
+.about-works-box-info-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.about-works-box-info-text {
+    line-height: 2rem;
+    color: rgb(68, 86, 108);
+    margin-top: calc(0.5rem * calc(1 - 0));
+    margin-bottom: calc(0.5rem * calc(0));
+}
+
+.blue {
+    background: rgb(243, 250, 255);
+}
