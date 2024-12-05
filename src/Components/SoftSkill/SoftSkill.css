@@ -1,0 +1,37 @@
+button, [role="button"] {
+    cursor: pointer;
+}
+button, [type='button'], [type='reset'], [type='submit'] {
+    -webkit-appearance: button;
+    background-color: transparent;
+    background-image: none;
+}
+button, select {
+    text-transform: none;
+}
+button, input, optgroup, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    font-weight: inherit;
+    line-height: inherit;
+    color: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+.btn-resume {
+    cursor: default;
+    border-radius: 0.5rem;
+    background-color: rgb(237, 242, 242);
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: rgb(68, 86, 108);
+}
+
+.dark .btn-resume {
+    background-color: rgb(28, 28, 28);
+    color: rgb(166, 166, 166);
+}
+
