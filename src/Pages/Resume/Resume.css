@@ -1,0 +1,146 @@
+.resume-container {
+    background-color: rgb(255, 255, 255);
+    border-radius: 1rem;
+}
+
+.dark .resume-container {
+    background-color: rgb(17, 17, 17);
+}
+
+.resume {
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.fix-after::after {
+    right: 8rem !important;
+}
+
+.fix-after {
+    margin-bottom: 40px;
+}
+
+.dark .fix-after {
+    color: rgb(255, 255, 255);
+}
+
+.resume-h-content {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    column-gap: 1.5rem;
+    row-gap: 1.5rem;
+}
+
+.resume-h-c-title {
+    margin-bottom: 1rem ;
+    display: flex;
+    align-items: center;
+}
+
+.resume-h-c-title-icon {
+    font-size: 1.75rem;
+    color: rgb(249, 80, 84);
+}
+
+.resume-h-c-title-text {
+    font-size: 1.625rem;
+    font-weight: 500;
+    margin-inline-end: 0;
+    margin-inline-start: 0.5rem;
+}
+
+.dark .resume-h-c-title-text {
+    color: rgb(255, 255, 255);
+}
+
+.resume-main {
+    background-color: rgb(248, 251, 251);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.dark .resume-main {
+    background-color: rgb(13, 13, 13);
+}
+
+.resume-main-container {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 2rem;
+}
+
+.resume-m-c-right {
+    grid-column: span 1 / span 1;
+}
+
+.resume-m-c-right-title {
+    margin-bottom: 1.5rem;
+    font-size: 1.625rem;
+    font-weight: 500;
+}
+
+.dark .resume-m-c-right-title {
+    color: rgb(255, 255, 255);
+}
+
+.resume-m-c-left {
+    grid-column: span 1 / span 1;
+}
+
+.resume-m-c-left-content {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 0.75rem;
+    row-gap: 0.75rem;
+}
+
+@media (min-width: 640px) {
+    .resume-header {
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+    }
+    .resume-main {
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .resume-header {
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+    }
+    .resume-h-content {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    .resume-main {
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+    }
+    .resume-main-container {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    .resume-m-c-left-content {
+        row-gap: 1.5rem;
+        column-gap: 1rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .resume-header {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+    .resume-h-content {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+    .resume-main {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+}
+
