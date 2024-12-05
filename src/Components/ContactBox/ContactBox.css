@@ -1,0 +1,55 @@
+.contact-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    border-radius: 0.75rem;
+    border-color: rgb(166, 166, 166);
+    padding: 30px;
+    margin-bottom: 1.5rem;
+}
+
+.dark .contact-box {
+    background-color: rgb(33, 36, 37);
+}
+
+.contact-box-icon {
+    margin-top: 0.5rem;
+    width: 2rem;
+}
+
+.contact-box-icon-img {
+    font-size: 1.5625rem;
+}
+
+.dark .contact-box-icon-img {
+    color: rgb(255, 255, 255);
+}
+
+.contact-box-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.dark .contact-box-title {
+    color: rgb(255, 255, 255);
+}
+
+.contact-box-subtitle {
+    font-size: 1.125rem;
+    color: rgb(68, 86, 108);
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+    direction: ltr !important;
+}
+
+.pink {
+    background-color: rgb(252, 244, 255)
+}
+
+.blue-con {
+    background-color: rgb(238, 251, 255);
+}
+
+.purple-con {
+    background-color: rgb(242, 244, 255);
+}
