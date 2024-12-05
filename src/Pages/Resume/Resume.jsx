@@ -1,7 +1,6 @@
 import React from 'react'
 import './Resume.css'
 
-import Header from '../../Components/Header/Header'
 import ResumeContentBox from '../../Components/ResumeContentBox/ResumeContentBox';
 import HardSkill from '../../Components/HardSkill/HardSkill';
 import SoftSkill from '../../Components/SoftSkill/SoftSkill';
@@ -13,10 +12,6 @@ import { LiaAwardSolid } from "react-icons/lia";
 
 export default function Resume () {
   return (
-    <div className='bg-homeBg'>
-      <div className='z-50'>
-        <div className='container'>
-          <Header />
           <section className="resume-container">
             <div>
               <div className="container  resume-header">
@@ -94,8 +89,5 @@ export default function Resume () {
               </div>
             </div>
           </section>
-        </div>
-      </div>
-    </div>
   )
 }

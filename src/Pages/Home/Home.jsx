@@ -1,6 +1,5 @@
 import React from 'react'
 import "./Home.css"
-import Header from '../../Components/Header/Header'
 import SocialBox from '../../Components/SocialBox/SocialBox';
 
 // import icons 
@@ -11,10 +10,7 @@ import { BsLinkedin } from "react-icons/bs";
 
 export default function Home() {
   return (
-    <div className='bg-homeBg'>
-      <div className='z-50'>
-        <div className='container'>
-          <Header />
+
           <div className="home-container">
             <img src="./images/profile/profile.jpg" alt="" className='img-profile' />
             <h3 className="title-profile">
@@ -32,8 +28,5 @@ export default function Home() {
               دانلود رزومه
             </a>
           </div>
-        </div>
-      </div>
-    </div>
   )
 }

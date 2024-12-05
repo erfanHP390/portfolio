@@ -1,6 +1,5 @@
 import React from 'react'
 import './About.css'
-import Header from '../../Components/Header/Header'
 import AboutMeInfosItem from '../../Components/AboutMeInfosItem/AboutMeInfosItem'
 import AboutWorksBox from '../../Components/AboutWorksBox/AboutWorksBox'
 
@@ -11,10 +10,6 @@ import { SlCalender } from "react-icons/sl";
 
 export default function About () {
   return (
-    <div className='bg-homeBg'>
-      <div className='z-50'>
-        <div className='container'>
-          <Header />
           <section>
             <div className='container  about-container'>
               <div>
@@ -72,8 +67,5 @@ export default function About () {
               </div>
             </div>
           </section>
-        </div>
-      </div>
-    </div>
   )
 }

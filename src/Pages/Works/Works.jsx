@@ -1,10 +1,12 @@
 import React from 'react'
-import "./Works.css"
+import './Works.css'
 
-export default function Works() {
+import Header from "../../Components/Header/Header"
+
+export default function Works () {
   return (
-    <div>
-      
-    </div>
+          <div>
+            
+          </div>
   )
 }
