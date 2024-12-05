@@ -6,6 +6,12 @@
     padding: 1.5rem;
 }
 
+.dark .about-works-box {
+    background: transparent;
+    border-color: rgba(33, 36, 37, 0.732);
+    border: 1px solid;
+}
+
 .purple {
     background: rgb(252, 244, 255);
 }
@@ -17,13 +23,13 @@
     object-fit: contain;
 }
 
-.about-works-box-info {
-    word-break: break-all;
-}
-
 .about-works-box-info-title {
     font-size: 1.25rem;
     font-weight: 600;
+}
+
+.dark .about-works-box-info-title {
+    color: rgb(255, 255, 255);
 }
 
 .about-works-box-info-text {
