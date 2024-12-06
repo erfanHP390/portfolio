@@ -1,0 +1,126 @@
+.contact-container {
+    background-color: rgb(255, 255, 255);
+}
+
+.dark .contact-container {
+    background-color: rgb(17, 17, 17);
+}
+
+.contact {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.contact-header {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.fix-contact::after {
+    right: 15rem !important;
+}
+
+.dark .fix-contact {
+    color: rgb(255, 255, 255) !important;
+}
+
+.fix-contact {
+    margin-bottom: 40px !important;
+}
+
+.contact-h-content {
+    column-gap: 5rem;
+}
+
+.contact-c-h-right {
+    width: 100%;
+}
+
+.contact-c-h-left {
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.form-left {
+    margin-bottom: 4rem;
+    border-radius: 0.75rem;
+    background-color: rgb(248, 251, 251);
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 5rem;
+}
+
+.dark .form-left {
+    border-width: 2px;
+    background-color: rgb(17, 17, 17);
+    border-color: rgb(33, 36, 37);
+}
+
+.form-left-title {
+    font-size: 1.5625rem;
+}
+
+.form-left-t-text {
+    color: rgb(68, 86, 108);
+}
+
+.dark .form-left-t-text {
+    color: rgb(166, 166, 166);
+}
+
+.form-left-t-subtitle {
+    font-weight: 600;
+}
+
+.dark .form-left-t-subtitle {
+    color: rgb(255, 255, 255);
+}
+
+@media (min-width: 640px) {
+    .contact {
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .contact {
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+    }
+    .form-left {
+        margin-bottom: 60px;
+        padding: 48px ;
+        padding-bottom: 5rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .contact-container {
+        border-radius: 1rem;
+    }
+    .contact {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+    .contact-h-content {
+        display: flex;
+    }
+    .contact-c-h-right {
+        width: 40%;
+    }
+    .contact-c-h-left {
+        margin-top: 0px;
+        width: 60%;
+    }
+}
+
+@media (min-width: 1280px) {
+    .contact-c-h-right {
+        width: 30%;
+    }
+    .contact-c-h-left {
+        width: 70%;
+    }
+}
