@@ -1,0 +1,109 @@
+.my-form {
+  position: relative;
+  z-index: 0;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+.fix-my-form {
+    margin-top: 40px;
+}
+
+.my-form-input {
+  display: block;
+  width: 100%;
+  appearance: none;
+  border-width: 0px;
+  border-bottom-width: 2px;
+  border-color: rgb(181, 181, 181);
+  background-color: transparent;
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
+  padding-right: 0px;
+  padding-left: 0px;
+  color: rgb(68, 86, 108);
+  transition: all 0.5s ease;
+}
+
+.dark .my-form-input {
+  border-color: rgb(51, 51, 51);
+  color: rgb(255, 255, 255);
+}
+
+.my-form-label {
+  position: absolute;
+  top: 0.75rem;
+  z-index: -10;
+  transform-origin: 0;
+  --tw-translate-y: -1.5rem;
+  transform: translate(var(0), var(-1.5rem)) rotate(var(0)) skewX(var(0))
+    skewY(var(0)) scaleX(var(1)) scaleY(var(1));
+    transition: all 0.5s ease;
+}
+
+.dark .my-form-label {
+    color: rgb(166, 166, 166);
+}
+
+.my-form-input:focus ~ .my-form-label {
+    left: 0px;
+    --tw-translate-y: -2rem;
+    transform: translateY(-2rem);
+    font-weight: 500;
+    color: rgb(255, 100, 100);
+}
+
+.my-form-input:focus {
+    border-bottom-color: rgb(255, 100, 100);
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+}
+
+.input-blue:focus ~ .label-blue {
+    color: rgb(81, 133, 212);
+}
+
+.input-blue:focus {
+    border-bottom-color: rgb(81, 133, 212);
+}
+
+.purple-input:focus ~ .purple-label {
+    color: rgb(202, 86, 242);
+}
+
+.purple-input:focus {
+    border-bottom-color: rgb(202, 86, 242);
+}
+
+.form-btn {
+    float: left;
+    display: inline-block;
+    border-radius: 0.5rem;
+    transition: all 0.6s ease;
+}
+
+.form-btn:hover {
+    background: linear-gradient(#ff5252 , #dd2476);
+    color: #fff;
+}
+
+.dark .form-btn {
+    background: linear-gradient(#ff5252 , #dd2476);
+    color: #fff;
+}
+
+.form-submit {
+    -webkit-appearance: button;
+    background-color: transparent;
+    background-image: none;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    border-width: 2px;
+    border-color: rgb(166, 166, 166);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    font-weight: 600;
+
+}
