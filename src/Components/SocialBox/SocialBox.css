@@ -18,7 +18,8 @@
 }
 
 .social-btn:hover {
-    background-color: #fa525294;
+    background: linear-gradient(#ff5252 , #dd2476);
+    color: #fff;
 }
 
 .github {
@@ -31,7 +32,7 @@
 }
 
 .instagram {
-    color: #ef4d00;
+    color: purple;
     font-size: 2rem;
 }
 

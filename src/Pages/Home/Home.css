@@ -66,14 +66,14 @@ a {
     display: flex;
     align-items: center;
     border-radius: 35px;
-    background-color: #fa5252ef;
     padding-left: 2rem;
     padding-right: 2rem;
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
     font-size: 1.125rem;
-    color: rgb(255, 255, 255);
     transition: all 0.5s ease;
+    background: linear-gradient(#ff5252 , #dd2476);
+    color: #fff;
 }
 
 .img-download {
