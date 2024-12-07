@@ -113,21 +113,21 @@ const AllData = () => {
       description:
           "سایت گلدن موویز دارای تم تاریک و روشن ، صفحات اختصاصی دانلود فیلم و سریال ، مدیریت پنل ، پنل کاربری ، ثبت نام و ورود",
     },
+    // {
+    //   id: "2",
+    //   tag: "logo",
+    //   title: "اپلیکیشن NFT",
+    //   img: "",
+    //   imgSmall: "",
+    //   bg: "#FFF3FC",
+    //   client: "-------",
+    //   langages: "ّFigma",
+    //   link: "----",
+    //   linkText: "----",
+    //   description: "اپلیکیشن NFT"
+    // },
     {
       id: "2",
-      tag: "logo",
-      title: "اپلیکیشن NFT",
-      img: "",
-      imgSmall: "",
-      bg: "#FFF3FC",
-      client: "-------",
-      langages: "ّFigma",
-      link: "----",
-      linkText: "----",
-      description: "اپلیکیشن NFT"
-    },
-    {
-      id: "3",
       tag: "Web Design",
       title: "سایت شخصی",
       img: "./images/works/portfolio.png",
