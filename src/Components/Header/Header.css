@@ -132,6 +132,7 @@ img, svg, video, canvas, audio, iframe, embed, object {
 @media (min-width: 1024px) {
   .header {
     position: static;
+
   }
   .img-container {
     background-color: transparent;
@@ -194,6 +195,10 @@ img, svg, video, canvas, audio, iframe, embed, object {
   } 
   .dark .nav-list {
     background-color: rgb(29, 29, 29);
+  }
+  .header{
+    background-color: rgb(255, 255, 255);
+
   }
 }
 
