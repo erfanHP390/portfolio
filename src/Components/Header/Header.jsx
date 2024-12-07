@@ -22,7 +22,7 @@ export default function Header () {
       <div className='img-container'>
         <div className='img-cont'>
           <a href='/' className='img-link'>
-            <img src='' alt='' className='img-logo' />
+            <img src='./images/logo/1.png' alt='' className='img-logo' />
           </a>
           <div className='nav-mobile'>
             {!check ? (

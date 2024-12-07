@@ -1,11 +1,17 @@
 import React from 'react'
 import "./Contact.css"
+import { Helmet } from 'react-helmet';
+
 
 import ContactBox from '../../Components/ContactBox/ContactBox'
 import FormContact from '../../Components/FormContact/FormContact'
 
 export default function Contact() {
   return (
+    <>
+    <Helmet>
+    <title>تماس با من</title>
+      </Helmet>  
     <section className='contact-container'>
       <div>
         <div className="container  contact">
@@ -35,6 +41,7 @@ export default function Contact() {
           </div>
         </div>
       </div>
-    </section>
+    </section> 
+    </>
   )
 }
