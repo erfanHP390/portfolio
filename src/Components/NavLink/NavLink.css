@@ -25,15 +25,32 @@
     font-size: 1.25rem;
 }
 
-.nav-link:hover {
+
+
+
+.nav-link-active {
     background: linear-gradient(#ff5252 , #dd2476);
     color: #fff;
+}
+
+.nav-link-mobile-active {
+    color: #ff5252;
 }
 
 @media (min-width: 768px) {
     .nav-link {
         padding-left: 1rem;
         padding-right: 1rem;
+    }
+}
+@media (min-width: 1024px) {
+    .nav-link:hover {
+        background: linear-gradient(#ff5252 , #dd2476);
+        color: #fff;
+    } 
+    .nav-link.active {
+        background: linear-gradient(#ff5252 , #dd2476);
+        color: #fff;
     }
 }
 

@@ -13,7 +13,9 @@ export default function Header () {
   const handle = e => {
     handleTheme(e)
   }
-  const a = useLocation()
+  const linkSite = useLocation()
+
+  
 
   return (
     <header className='header'>
@@ -61,8 +63,8 @@ export default function Header () {
           menuOpen ? '' : 'nav'
         }`}
       >
-        <ul className={`${menuOpen ? 'nav-list-mobile' : 'nav-list'}`}>
-          <NavLink className={`${menuOpen ? "nav-link nav-link-mobile" : "nav-link"}`}
+        <ul className={`nav-list`}>
+          <NavLink className={linkSite.pathname === "/" ? `nav-link  active` : "nav-link"}
             href={`/`}
             icon={
               <svg
@@ -82,7 +84,7 @@ export default function Header () {
             }
             title={`خانه`}
           />
-          <NavLink className={`${menuOpen ? "nav-link nav-link-mobile" : "nav-link"}`}
+          <NavLink className={linkSite.pathname === "/about" ? `nav-link  active` : "nav-link"}
             href={`/about`}
             icon={
               <svg
@@ -102,7 +104,7 @@ export default function Header () {
             }
             title={`درباره`}
           />
-          <NavLink className={`${menuOpen ? "nav-link nav-link-mobile" : "nav-link"}`}
+          <NavLink className={linkSite.pathname === "/resume" ? `nav-link  active` : "nav-link"}
             href={`/resume`}
             icon={
               <svg
@@ -130,7 +132,7 @@ export default function Header () {
             }
             title={`رزومه`}
           />
-          <NavLink  className={`${menuOpen ? "nav-link nav-link-mobile" : "nav-link"}`}
+          <NavLink  className={linkSite.pathname === "/works" ? `nav-link  active` : "nav-link"}
             href={`/works`}
             icon={
               <svg
@@ -150,7 +152,7 @@ export default function Header () {
             }
             title={`کارها`}
           />
-          <NavLink  className={`${menuOpen ? "nav-link nav-link-mobile" : "nav-link"}`}
+          <NavLink  className={linkSite.pathname === "/contact" ? `nav-link  active` : "nav-link"}
             href={`/contact`}
             icon={
               <svg
