@@ -40,7 +40,7 @@ body {
 }
 
 .img-logo {
-    height: 26px;
+    height: 35px;
 }
 
 .nav {
@@ -65,9 +65,7 @@ a {
 }
 
 
-.dark .nav-list-mobile {
-  background-color: rgb(29, 29, 29);
-}
+
 
 .DL-moon {
     margin-right: 0.5rem;
@@ -148,7 +146,7 @@ img, svg, video, canvas, audio, iframe, embed, object {
     margin-bottom: 2rem;
   }
   .img-logo {
-    height: 32px;
+    height: 100px;
   }
   .nav {
     display: block;
@@ -194,6 +192,9 @@ img, svg, video, canvas, audio, iframe, embed, object {
   .nav-link.active {
     color: #ff5252  !important;
   } 
+  .dark .nav-list {
+    background-color: rgb(29, 29, 29);
+  }
 }
 
 
