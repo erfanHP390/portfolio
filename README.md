@@ -6,7 +6,7 @@ A brief description of what this project does and who it's for
 ## Demo
 
 link to demo
-(https://erfan-hosseini.vercel.app/)](https://erfan-hosseini.vercel.app/)
+(https://erfan-hosseini.vercel.app/)
 
 
 ## Features
