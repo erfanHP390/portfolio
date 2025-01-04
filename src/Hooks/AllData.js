@@ -108,24 +108,11 @@ const AllData = () => {
       bg: "#FFF0F0",
       client: "-------",
       langages: "React , Sass , Bootstrap",
-      link: "https://golden-movies.liara.run/",
+      link: "https://golden-movie-w78l.vercel.app/",
       linkText: "کلیک کنید",
       description:
           "سایت گلدن موویز دارای تم تاریک و روشن ، صفحات اختصاصی دانلود فیلم و سریال ، مدیریت پنل ، پنل کاربری ، ثبت نام و ورود",
     },
-    // {
-    //   id: "2",
-    //   tag: "logo",
-    //   title: "اپلیکیشن NFT",
-    //   img: "",
-    //   imgSmall: "",
-    //   bg: "#FFF3FC",
-    //   client: "-------",
-    //   langages: "ّFigma",
-    //   link: "----",
-    //   linkText: "----",
-    //   description: "اپلیکیشن NFT"
-    // },
     {
       id: "2",
       tag: "Web Design",
@@ -138,6 +125,19 @@ const AllData = () => {
       link: "/",
       linkText: "کلیک کنید",
       description: "سایت شخصی برای مشاهده رزومه و نمونه کار ها"
+    },
+        {
+      id: "3",
+      tag: "Logo",
+      title: "coffee-shop-aramesh",
+      img: "./images/works/coffee-shop.png",
+      imgSmall: "./images/works/coffee-shop.png",
+      bg: "#FFF3FC",
+      client: "-------",
+      langages: "ّNext.js , Css , Bootstrap",
+      link: "https://website-coffee-shop.vercel.app/",
+      linkText: "کلیک کنید",
+      description: "سایت کافی شاپ آرامش دارای بک ان اختصاصی باقابلیت API Route in Next.js "
     },
   ];
   const [data, setData] = useState(workItems);
