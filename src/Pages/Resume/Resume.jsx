@@ -79,6 +79,7 @@ export default function Resume () {
                   color={`#EFD81C`}
                 />
                 <HardSkill title={`React`} percent={`71`} color={`#5AD4F6`} />
+                <HardSkill title={`Next.js(در حال یادگیری)`} percent={`35`} color={`#4c4949`} />
                 <HardSkill title={`Git`} percent={`75`} color={`#E94D32`} />
                 <HardSkill title={`Github`} percent={`75`} color={`#3C0092`} />
                 <HardSkill
