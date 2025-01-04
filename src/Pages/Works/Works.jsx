@@ -68,7 +68,7 @@ export default function Works ({ condition = true, items = 4 }) {
                   } works-list-item`}
                   onClick={() => handleSearch('Web Design')}
                 >
-                  طراحی وب
+                  React
                 </li>
                 <li
                   className={`${
@@ -76,7 +76,7 @@ export default function Works ({ condition = true, items = 4 }) {
                   } works-list-item`}
                   onClick={() => handleSearch('Logo')}
                 >
-                   فیگما (بزودی)
+                   Next.js
                 </li>
               </ul>
             </div>
@@ -103,7 +103,7 @@ export default function Works ({ condition = true, items = 4 }) {
                     />
                   </div>
                   <span className='my-masonry-grid-item-subtitle'>
-                    {item?.tag}
+                    طراحی سایت
                   </span>
                   <h2
                     onClick={() => handleModle(item.id)}
